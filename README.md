@@ -4,8 +4,8 @@ Yet Another Leader Logs for Cardano Stakepool Operators
 
 Leader Logs Checker for Next, Current and Previous Epochs.
 
-In this version cardano-node is not required, new epochNonce
-is provided by Armada Alliance 
+# In this version cardano-node is not required, 
+# new epochNonce is provided by Armada Alliance 
 
 Rest of data is taken from blockfrost.io
 
@@ -24,7 +24,7 @@ available on https://github.com/papacarp/pooltool.io.git
 - get a project id on blockfrost.io
 - make sure you can access your vrf.skey file (you can copy in it a path of your choice) and remember to keep it as read only ``` chmod 400 vrf.skey ```
 
-- Set Variables on lines 23, 27-30 of ScheduledBlocks.py:
+- Set Variables on lines 30 and 33-36 of YaLL_ArmadaNonce.py:
 
 ### Set your own timezone -----------------------------------------###
 local_tz = pytz.timezone('')
